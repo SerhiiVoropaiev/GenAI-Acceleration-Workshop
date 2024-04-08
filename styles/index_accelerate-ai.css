@@ -1,0 +1,15 @@
+.accelerate-ai__title{
+    padding: 40px 0;
+}
+
+.accelerate-ai__cover{
+    max-width: 50%;
+}
+
+.accelerate-ai__wrap{
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
