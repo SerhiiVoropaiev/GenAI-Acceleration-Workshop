@@ -5,16 +5,15 @@
 
 .aws__partner-wrap{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    /*flex-wrap: wrap;*/
-    gap: 80px;
-    align-items: center;
+    gap: 40px;
 }
 
 .header-partner {
     color: var(--light-60-color);
     font-weight: 400;
-    max-width: 75%;
+    max-width: 100%;
 }
 
 .header-partner-accent{
@@ -23,40 +22,22 @@
 }
 
 .aws-partner-generative-ai{
-    width: 8rem;
+    width: 6rem;
 }
 
 .aws-value{
     width: 16rem;
 }
 
-@media(min-width: 768px) {
-    .header__intro {
-        padding: 190px 0 157px;
-    }
 
-    .header__intro-title {
-        font-size: 56px;
-    }
 
-    .header__intro-text {
-        font-size: 20px;
-        padding: 30px 0 45px;
-    }
-}
-
-@media(min-width: 992px) {
-    .header__intro {
-        padding: 250px 0 185px;
-    }
-
-    .header__intro-title{
-        font-size: 72px;
-    }
-
-    .header__intro-text {
-        font-size: 20px;
-        padding: 40px 0 45px;
+@media (min-width: 640px) {
+    .aws__partner-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
     }
 
 }
