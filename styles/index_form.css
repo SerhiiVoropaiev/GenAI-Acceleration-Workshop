@@ -1,0 +1,46 @@
+/* Основные стили формы */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для полей ввода и текстовой области */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Убедитесь, что padding не добавляет дополнительную ширину */
+}
+
+textarea {
+    height: 100px; /* Высота текстовой области */
+    resize: vertical; /* Позволяет пользователю изменять размер вертикально */
+}
+
+/* Стилизация кнопки отправки */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Легкая стилизация placeholder */
+::placeholder {
+    color: #888;
+}
