@@ -2,12 +2,10 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     event.preventDefault();
 
     // Эта функция из EmailJS отправит данные формы
-    emailjs.sendForm('your-service-id', 'your-template-id', this)
+    emailjs.sendForm('service_snx3yur', 'template_f1ban5t', this)
         .then(function () {
-            alert('Сообщение успешно отправлено!');
+            alert('Your request has been successfully sent');
         }, function (error) {
-            alert('Ошибка отправки: ' + JSON.stringify(error));
+            alert('Sending error: ' + JSON.stringify(error));
         });
 });
-
-console.log("Hej you right here");

@@ -3,4 +3,5 @@ document.addEventListener("partialsLoaded", () => {
     import("./header.js");
     import("./header-intro.js");
     import("./form.js");
+    import("./review.js");
 });

@@ -2,7 +2,6 @@
     padding: 80px 0;
 }
 
-
 .reviews__cover {
     max-width: 100%;
     height: auto;
@@ -32,14 +31,13 @@
     font-style: italic;
 }
 
-.reviews__kate {
+.reviews__name {
     color: var(--dark-deep-color);
 }
 
-.reviews__Kate-position {
+.reviews__name-position {
     color: var(--dark-deep-color);
 }
-
 
 .reviews__content {
     margin-bottom: 24px;
@@ -61,11 +59,11 @@
     margin-bottom: 8px;
 }
 
-.reviews__kate {
+.reviews__name {
     font-weight: 600;
 }
 
-.reviews__Kate-position {
+.reviews__name-position {
     font-weight: 300;
 }
 
@@ -80,14 +78,25 @@
 }
 
 .slider_item {
-    width: 64px;
+    width: 12px;
     height: 12px;
-    background: var(--light-80-color);
+    background: var(--blue-pure-light-color);
     border-radius: 90px;
 }
 
+.slider_item:hover {
+    background: var(--blue-accent-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .pagination-item__selected {
-    background: var(--blue-medium-light-color);
+    background: var(--blue-accent-color);
+    width: 64px;
+}
+
+.peakdefence_cover-logo{
+    max-width: 160px;
 }
 
 
