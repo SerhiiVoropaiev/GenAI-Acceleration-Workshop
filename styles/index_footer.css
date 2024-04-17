@@ -1,64 +1,63 @@
-.footer__section_wrap{
+.footer__section_wrap {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.footer__section{
+.footer__section {
     padding: 40px 0;
     background: var(--light-100-color);
 }
 
-.additional__content_wrap{
+.additional__content_wrap {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.footer__divider{
+.footer__divider {
     max-width: 1400px;
     height: 1px;
     background: var(--light-70-color);
 }
 
-.neuronslab__disclamer{
+.neuronslab__disclamer {
     color: var(--light-70-color);
 }
 
-.social_medias{
+.social_medias {
     display: flex;
     flex-direction: row;
     gap: 12px;
 }
 
-.social__link{
+.social__link {
     display: block;
 }
 
-.social_icon{
+.social_icon {
     width: 24px;
     display: block;
 }
 
-.additional__content{
+.additional__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.additional__link{
+.additional__link {
     color: var(--dark-deep-color);
 }
 
-.additional__link:hover{
+.additional__link:hover {
     color: var(--light-70-color);
     cursor: pointer;
     transition: 0.3s;
 }
 
-
 @media (min-width: 960px) {
-    .additional__content_wrap{
+    .additional__content_wrap {
         display: flex;
         flex-direction: row;
         justify-content: space-between;

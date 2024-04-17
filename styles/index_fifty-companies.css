@@ -1,27 +1,27 @@
-.fifty-companies{
+.fifty-companies {
     padding: 40px 0 120px 0;
 }
 
-.fifty-companies__wrap{
+.fifty-companies__wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
-.fifty-companies__header-h2{
+.fifty-companies__header-h2 {
     margin-bottom: 80px;
     color: var(--dark-deep-color);
 }
 
-.fifty-companies__logo-item{
+.fifty-companies__logo-item {
     display: block;
     max-height: 40px;
     width: auto;
     opacity: 50%;
 }
 
-.fifty-companies__logo-set{
+.fifty-companies__logo-set {
     max-width: 100%;
     display: flex;
     flex-direction: row;
@@ -89,7 +89,6 @@
             transform: translateX(-50%);
         }
     }
-
 
     .fifty-companies__logo-item {
         display: block;

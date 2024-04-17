@@ -266,19 +266,12 @@
     .nav-item__services {
         margin-bottom: 0;
     }
+
     .list__hover-item-link__genai {
         margin-bottom: 0;
     }
 }
 
-/*@media (min-width: 1320px) {*/
-/*    .nav-list {*/
-/*        flex-direction: row;*/
-/*        font-size: 17px;*/
-/*        gap: 16px;*/
-/*    }*/
-
-/*}*/
 
 
 

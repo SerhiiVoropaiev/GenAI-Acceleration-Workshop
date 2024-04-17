@@ -1,9 +1,9 @@
-.aws__partner{
+.aws__partner {
     background: var(--blue-light-color);
     padding: 80px 0;
 }
 
-.aws__partner-wrap{
+.aws__partner-wrap {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,28 +16,25 @@
     max-width: 100%;
 }
 
-.header-partner-accent{
+.header-partner-accent {
     color: var(--dark-deep-color);
     font-weight: 600;
 }
 
-.aws-partner-generative-ai{
+.aws-partner-generative-ai {
     width: 6rem;
 }
 
-.aws-value{
+.aws-value {
     width: 16rem;
 }
 
-
-
 @media (min-width: 640px) {
-    .aws__partner-wrap{
+    .aws__partner-wrap {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         gap: 80px;
     }
-
 }

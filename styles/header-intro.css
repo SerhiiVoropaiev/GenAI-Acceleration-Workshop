@@ -31,7 +31,7 @@
     text-align: center;
 }
 
-.aws_neuronslab_collaboration{
+.aws_neuronslab_collaboration {
     max-width: 294px;
     margin-bottom: 16px;
 }
@@ -51,36 +51,42 @@
 
 
 @media (min-width: 768px) {
-    .header-h1{
+    .header-h1 {
         max-width: 80%;
     }
-    .header-h3{
+
+    .header-h3 {
         max-width: 80%;
     }
+
     .header__intro {
         padding: 150px 0 140px;
     }
 }
 
 @media (min-width: 1025px) {
-    .header-h1{
+    .header-h1 {
         max-width: 50%;
     }
-    .header-h3{
+
+    .header-h3 {
         max-width: 50%;
     }
+
     .header__intro {
         padding: 170px 0 150px;
     }
 }
 
 @media (min-width: 1280px) {
-    .header-h1{
+    .header-h1 {
         max-width: 65%;
     }
-    .header-h3{
+
+    .header-h3 {
         max-width: 65%;
     }
+
     .header__intro {
         padding: 280px 0 160px;
     }
