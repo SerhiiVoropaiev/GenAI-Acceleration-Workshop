@@ -1,11 +1,28 @@
 document.getElementById('contact-form').addEventListener('submit', function (event) {
     event.preventDefault();
+    let modal = document.getElementById("myModal");
+    let span = document.getElementsByClassName("close")[0];
+    let modalText = document.getElementById("modal-text");
 
     // Эта функция из EmailJS отправит данные формы
     emailjs.sendForm('service_snx3yur', 'template_f1ban5t', this)
         .then(function () {
-            alert('Your request has been successfully sent');
+            modalText.innerHTML = 'Your request has been successfully sent';
+            modal.style.display = "block";
         }, function (error) {
-            alert('Sending error: ' + JSON.stringify(error));
+            modalText.innerHTML = 'Sending error: ' + JSON.stringify(error);
+            modal.style.display = "block";
         });
+
+    // Когда пользователь кликает на <span> (x), закрыть модальное окно
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Когда пользователь кликает в любое место за пределами модального окна, это также закрывается
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 });

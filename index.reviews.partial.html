@@ -1,34 +1,32 @@
 <section class="reviews" id="review">
     <div class="container">
+        <!-- Радио кнопки для управления слайдами -->
+        <input type="radio" name="slider" id="slide1" class="slide-radio" checked hidden>
+        <input type="radio" name="slider" id="slide2" class="slide-radio" hidden>
+        <input type="radio" name="slider" id="slide3" class="slide-radio" hidden>
+        <input type="radio" name="slider" id="slide4" class="slide-radio" hidden>
         <div class="reviews__wrap">
-            <div class="reviews__wrap__content visa">
-                <img src="./img/review_visa.jpg" alt="Visa Head of Innovation Department"
-                     class="reviews__cover">
-                <div class="reviews_wrap__review">
+            <!-- Слайд 1 -->
+            <div class="reviews__wrap__content visa" id="content1">
+                <img src="./img/review_visa.jpg" alt="Visa Head of Innovation Department" class="reviews__cover">
+                <div class="reviews__wrap__review">
                     <div class="reviews__content">
-                        <p class="content-review">Generative AI unlocks new frontiers for enterprises and
-                            scale-ups. The
-                            GenAI Proof of Concept service by Neurons Lab and AWS is designed to identify and evaluate
-                            generative AI use cases and build prototypes.</p>
+                        <p class="content-review">The Neurons Lab team demonstrated deep expertise in GenAI and worked
+                            diligently to build a tailored solution that has significantly improved our marketing
+                            personalization</p>
                     </div>
                     <div class="reviews__position-wrap">
                         <img src="./img/visa.svg" alt="visa logotype" class="visa_cover">
-                        <p class="reviews__name content">Kate Williams</p>
-                        <p class="reviews__name-position content">Head of Innovation Department</p>
+                        <p class="reviews__name content">Ann Melnychuk</p>
+                        <p class="reviews__name-position content">Senior Marketing Manager VISA</p>
                     </div>
-                    <div class="slider-pagination__wrap">
-                        <div class="pagination-item__selected slider_item"></div>
-                        <div class="pagination-item__default slider_item"></div>
-                        <div class="pagination-item__default slider_item"></div>
-                        <div class="pagination-item__default slider_item"></div>
-                    </div>
-
                 </div>
             </div>
-            <div class="reviews__wrap__content peakdefence">
+            <!-- Слайд 2 -->
+            <div class="reviews__wrap__content peakdefence" id="content2">
                 <img src="./img/review_peakdefence.jpg" alt="Co-founder & Board Member of Peak Defence"
                      class="reviews__cover">
-                <div class="reviews_wrap__review">
+                <div class="reviews__wrap__review">
                     <div class="reviews__content">
                         <p class="content-review">We needed a professional and flexible partner while going through a
                             fundamental pivot. Neurons Labs helped us to add gen AI capabilities to an existing
@@ -42,15 +40,51 @@
                         <p class="reviews__name content">Roman Jasin</p>
                         <p class="reviews__name-position content">Co-founder & Board Member of Peak Defence</p>
                     </div>
-                    <div class="slider-pagination__wrap">
-                        <div class="pagination-item__default slider_item"></div>
-                        <div class="pagination-item__selected slider_item"></div>
-                        <div class="pagination-item__default slider_item"></div>
-                        <div class="pagination-item__default slider_item"></div>
-                    </div>
-
                 </div>
             </div>
+            <!-- Слайд 3 -->
+            <div class="reviews__wrap__content humanity" id="content3">
+                <img src="./img/peterjoshi.jpg" alt="Peter Joshi" class="reviews__cover">
+                <div class="reviews__wrap__review">
+                    <div class="reviews__content">
+                        <p class="content-review">Neurons lab were a great team to work with. They helped us put
+                            together the proposal for this challenging innovative project, and always acted with good
+                            grace and insight as we encountered and overcame difficulties. All the problems are not
+                            solved, but we have a much better handle on the issues and potential solutions. Thanks
+                            Lilia, Artem and team.</p>
+                    </div>
+                    <div class="reviews__position-wrap">
+                        <img src="./img/humanity-logo.jpg" alt="humanity logotype" class="humanity_cover-logo">
+                        <p class="reviews__name content">Peter Joshi</p>
+                        <p class="reviews__name-position content">Chief Scientist Humanity Inc.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Слайд 4 -->
+            <div class="reviews__wrap__content penpot" id="content4">
+                <img src="./img/pabloruiz-muzquiz.jpg" alt="Pablo Ruiz-Múzquiz" class="reviews__cover">
+                <div class="reviews__wrap__review">
+                    <div class="reviews__content">
+                        <p class="content-review">I love how Neurons Lab is able to combine a very results-oriented
+                            methodology with the built-in uncertainty of pure AI research. They are able to achieve this
+                            by making sure they have picked your brain as much as possible. They have been key in
+                            assisting us in some of our strategic decision-making process and they have become our go-to
+                            critical friend in ML/AI.</p>
+                    </div>
+                    <div class="reviews__position-wrap">
+                        <img src="./img/penpot-logo.svg" alt="penpot logotype" class="penpot_cover-logo">
+                        <p class="reviews__name content">Pablo Ruiz-Múzquiz</p>
+                        <p class="reviews__name-position content">CEO at Kaleidos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Пагинация -->
+        <div class="slider-pagination__wrap">
+            <label for="slide1" class="slider_item"></label>
+            <label for="slide2" class="slider_item"></label>
+            <label for="slide3" class="slider_item"></label>
+            <label for="slide4" class="slider_item"></label>
         </div>
     </div>
 </section>

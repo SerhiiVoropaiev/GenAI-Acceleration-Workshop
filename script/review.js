@@ -1,26 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const sliderItems = document.querySelectorAll('.slider_item');
-    const reviewContents = document.querySelectorAll('.reviews__wrap__content');
+document.addEventListener('DOMContentLoaded', function() {
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slide-radio');
+    const totalSlides = slides.length;
 
-    sliderItems.forEach((item, index) => {
-        item.addEventListener('click', () => {
-            // Удалить класс 'pagination-item__selected' у всех элементов
-            sliderItems.forEach(el => {
-                el.classList.remove('pagination-item__selected');
-                el.classList.add('pagination-item__default');
-            });
-            // Добавить класс 'pagination-item__selected' к текущему элементу
-            item.classList.add('pagination-item__selected');
-            item.classList.remove('pagination-item__default');
+    function autoSlide() {
+        slideIndex = (slideIndex + 1) % totalSlides; // Переключение слайдов по кругу
+        slides[slideIndex].checked = true; // Активация следующей радио кнопки
+    }
 
-            // Скрыть все слайды
-            reviewContents.forEach(content => {
-                content.style.display = 'none';
-            });
-            // Показать выбранный слайд
-            if (reviewContents[index]) {
-                reviewContents[index].style.display = 'flex';
-            }
-        });
-    });
+    setInterval(autoSlide, 2000); // Установка интервала переключения
 });

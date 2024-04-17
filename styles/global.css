@@ -125,12 +125,14 @@ a {
     background: var(--blue-accent-color);
     padding: 12px 24px;
     transition: background 0.5s ease;
+    color: var(--light-100-color);
 }
 
 
 
 .btn-primary:hover {
-    background: var(--blue-medium-light-color);
+    background: var(--blue-pure-light-color);
+    color: var(--blue-accent-color);
 }
 
 
@@ -141,10 +143,6 @@ a {
 .footer{
     background-color: var(--dark-deep-color);
 }
-
-
-
-
 
 @media (min-width: 768px) {
     .container {

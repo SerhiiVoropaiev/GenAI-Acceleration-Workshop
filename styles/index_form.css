@@ -1,7 +1,7 @@
 /* Основной стиль формы */
 #contact-form {
     width: 100%;
-    padding: 80px 0 120px 0;
+    padding: 12px 0 80px 0;
 }
 
 /* Стилизация всех текстовых полей ввода внутри формы */
@@ -48,6 +48,10 @@
     transition: background-color 0.3s ease;
 }
 
+#contact-form button:hover {
+    color: var(--blue-accent-color);
+}
+
 
 /* Плейсхолдеры с более светлым цветом */
 #contact-form ::placeholder {
@@ -64,7 +68,7 @@
 .form-sec__wrap__content{
     display: flex;
     flex-direction: column;
-    padding-bottom: 120px;
+    /*padding-bottom: 120px;*/
     gap: 40px;
 }
 

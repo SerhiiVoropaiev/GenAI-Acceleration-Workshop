@@ -12,3 +12,5 @@ navLinks.addEventListener("click", () => {
     body.classList.remove("fixed");
     header.classList.remove("responsive");
 })
+
+
