@@ -17,9 +17,11 @@
     margin-bottom: 40px;
 }
 
-.header a {
+.header__nav-list a {
     color: var(--light-100-color);
 }
+
+
 
 .fixed {
     width: 100%;

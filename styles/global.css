@@ -12,7 +12,7 @@
     --dark-deep-color: #1A1A1A;
     --blue-light-color: #F2F7FF;
     --blue-medium-light-color: #7A9BFF;
-    --blue-accent-color: #008397;
+    --blue-accent-color: #121212;
     --blue-deep-color: #050F16;
     --blue-pure-light-color: #D9ECEF;
     font-family: 'Poppins', sans-serif;
@@ -95,10 +95,34 @@ a {
     color: var(--light-100-color);
 }
 
+.btn-primary-light {
+    color: var(--dark-deep-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 35px;
+    background: var(--light-100-color);
+    padding: 8px 20px;
+    transition: background 0.5s ease;
+    border: 1px rgba(255, 255, 255, 0.01) solid;
+}
+
 
 .btn-primary:hover {
-    background: var(--blue-pure-light-color);
-    color: var(--blue-accent-color);
+    background: var(--light-60-color);
+    color: var(--light-100-color);
+}
+
+.btn-primary-light:hover {
+    color: var(--light-100-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px var(--light-100-color) solid;
+    padding: 8px 20px;
+    transition: background 0.5s ease;
 }
 
 

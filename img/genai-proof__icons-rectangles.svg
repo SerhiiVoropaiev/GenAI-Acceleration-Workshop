@@ -1,11 +1,29 @@
 <svg width="124" height="124" viewBox="0 0 124 124" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_161_115)">
-<path d="M89.5067 26.4292H45.8087V70.1272H89.5067V26.4292Z" fill="#008397"/>
-<path d="M44.3796 72.4771L3.35986 115H35.7734L87.9506 72.4771H44.3796Z" fill="#008397"/>
-<path d="M43.7551 70.8894V28.4829L3 70.1272V112.862L43.7551 70.8894Z" fill="#008397"/>
+<path d="M89.5067 26.429H45.8087V70.1269H89.5067V26.429Z" fill="url(#paint0_linear_161_115)"/>
+<path d="M44.3796 72.4771L3.35986 115H35.7734L87.9506 72.4771H44.3796Z" fill="url(#paint1_linear_161_115)"/>
+<path d="M43.7551 70.8892V28.4827L3 70.127V112.862L43.7551 70.8892Z" fill="url(#paint2_linear_161_115)"/>
 <path d="M77.723 10L18.3857 67.6016V110.984H61.7677L121.105 53.382V10H77.723ZM119.77 52.4362H78.6799V11.3463H119.77V52.4362ZM77.3336 12.2475V52.8924L19.732 109.025V68.1579L77.3336 12.2475ZM61.2114 109.648H20.8113L78.1347 53.7825H118.768L61.2114 109.648Z" fill="black"/>
 </g>
 <defs>
+<linearGradient id="paint0_linear_161_115" x1="108.853" y1="-80.9076" x2="15.8167" y2="41.0867" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFCCBD"/>
+<stop offset="0.3125" stop-color="#D8B0FF"/>
+<stop offset="0.600448" stop-color="#A7CAFF"/>
+<stop offset="1" stop-color="#E1FFA3"/>
+</linearGradient>
+<linearGradient id="paint1_linear_161_115" x1="125.402" y1="-31.9733" x2="62.6447" y2="131.726" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFCCBD"/>
+<stop offset="0.3125" stop-color="#D8B0FF"/>
+<stop offset="0.600448" stop-color="#A7CAFF"/>
+<stop offset="1" stop-color="#E1FFA3"/>
+</linearGradient>
+<linearGradient id="paint2_linear_161_115" x1="61.7988" y1="-178.78" x2="-106.612" y2="-72.119" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFCCBD"/>
+<stop offset="0.3125" stop-color="#D8B0FF"/>
+<stop offset="0.600448" stop-color="#A7CAFF"/>
+<stop offset="1" stop-color="#E1FFA3"/>
+</linearGradient>
 <clipPath id="clip0_161_115">
 <rect width="118.105" height="105" fill="white" transform="translate(3 10)"/>
 </clipPath>

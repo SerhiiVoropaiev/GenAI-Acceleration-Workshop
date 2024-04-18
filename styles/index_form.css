@@ -31,11 +31,10 @@
     color: var(--light-70-color);
 }
 
-
 /* Стиль для текстовой области */
 #contact-form textarea {
     height: 150px;
-    /*resize: none;*/
+    resize: none;
 }
 
 /* Стилизация кнопки отправки */
@@ -45,10 +44,6 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-#contact-form button:hover {
-    color: var(--blue-accent-color);
 }
 
 /* Плейсхолдеры с более светлым цветом */
